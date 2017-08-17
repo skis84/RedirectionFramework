@@ -3,7 +3,7 @@
 namespace RedirectionFramework.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
-    internal class RedirectMethodAttribute : RedirectAttribute
+    public class RedirectMethodAttribute : RedirectAttribute
     {
         public RedirectMethodAttribute() : base(false)
         {
