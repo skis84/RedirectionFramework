@@ -13,10 +13,10 @@ namespace TrafficManager.RedirectionFramework {
 		/// <param name="method">queried harmony method</param>
 		/// <returns>method information</returns>
 		public static MethodBase GetOriginalMethod(HarmonyMethod method) {
-			if (method.originalType == null) return null;
+			if (method.declaringType == null) return null;
 			if (method.methodName == null)
-				return AccessTools.Constructor(method.originalType, method.parameter);
-			return AccessTools.Method(method.originalType, method.methodName, method.parameter);
+				return AccessTools.Constructor(method.declaringType, method.argumentTypes);
+			return AccessTools.Method(method.declaringType, method.methodName, method.argumentTypes);
 		}
 	}
 }
