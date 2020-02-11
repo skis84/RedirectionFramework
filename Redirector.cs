@@ -1,6 +1,6 @@
-﻿using RedirectionFramework.Extensions;
+﻿using TrafficManager.RedirectionFramework.Extensions;
 
-namespace RedirectionFramework
+namespace TrafficManager.RedirectionFramework
 {
     public class Redirector<T>
     {
