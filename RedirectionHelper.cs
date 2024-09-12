@@ -28,6 +28,11 @@ namespace TrafficManager.RedirectionFramework {
 		public ulong F;
 	}
 
+	/// Helper class to deal with detours. This version is for Unity 5 x64 on Windows.
+	/// We provide three different methods of detouring.
+	
+	/// Helper class to deal with detours. This version is for Unity 5 x64 on Windows.
+	/// We provide three different methods of detouring.
 	/// <summary>
 	/// Helper class to deal with detours. This version is for Unity 5 x64 on Windows.
 	/// We provide three different methods of detouring.

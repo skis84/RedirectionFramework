@@ -66,5 +66,10 @@
       <Name>CSUtil.Commons</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <!-- ... -->
+    <PackageReference Include="Contoso.Utility.UsefulStuff" Version="3.6.0" />
+    <!-- ... -->
+</ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
